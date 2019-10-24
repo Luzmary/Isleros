@@ -1,0 +1,43 @@
+<?php
+
+namespace backend\assets;
+
+use yii\web\AssetBundle;
+
+/**
+ * Main backend application asset bundle.
+ */
+class AppAsset extends AssetBundle
+{
+    public $basePath = '@webroot';
+    public $baseUrl = '@web';
+    public $css = [
+        'css/site.css',
+        'css/material-dashboard.css',
+        'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+        'https://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons',
+    ];
+
+    public $js = [
+        'js/material.min.js',
+        'js/chartist.min.js',
+        'js/bootstrap-notify.js',
+        'js/material-dashboard.js',
+        'js/superfish.js'
+    ];
+
+    public $depends = [
+        'yii\web\YiiAsset',
+        'yii\web\JqueryAsset',
+        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
+    ];
+
+    /**
+     * @inheritdoc
+     */
+    public function init()
+    {
+        parent::init();
+    }
+}

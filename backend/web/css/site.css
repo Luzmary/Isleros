@@ -1,0 +1,25 @@
+.modal-backdrop {
+    display:  none !important;
+}
+
+.panel-primary {
+    border-color: #E2241B !important;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #E2241B !important;
+    border-color: #E2241B !important;
+}
+
+.panel {
+    background-color: transparent !important;
+}
+
+.site-login {
+    border: 1px solid #9c27b0;
+}
+
+.upcode .form-group input[type=file] {
+	opacity: 1 !important;
+	position: inherit !important;
+}
