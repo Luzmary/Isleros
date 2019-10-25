@@ -10,8 +10,7 @@ Isleros Project Template
 
 It's an application where registered users can enter codes and redeem reward to use mainly on an island of any gas station
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+The template includes three tiers: front end, back end, and console based in a Yii2 advanced template.
 
 
 DIRECTORY STRUCTURE
